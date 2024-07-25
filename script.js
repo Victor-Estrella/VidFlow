@@ -37,7 +37,7 @@ barraDePesquisa.addEventListener("input", filtrarPesquisa);
 
 function filtrarPesquisa() {
     const videos = document.querySelectorAll('.videos__item');
-    const valorFiltro = barraPesquisa.value.toLowerCase();
+    const valorFiltro = barraDePesquisa.value.toLowerCase();
   
     videos.forEach((video) => {
       const titulo = video.querySelector('.titulo-video').textContent.toLowerCase();
